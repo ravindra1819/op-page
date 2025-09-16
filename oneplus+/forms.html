@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <title>HTML Forms</title>
-  </head>
+<head>
+  <title>HTML Forms</title>
+</head>
 
-  <body>
+<body>
 
-    <form action="">
+  <form action="">
 
-      <label for="firstname">FirstName : </label>
-      <input type="text" id="firstname" placeholder="enter FirstName"> <br><br>
+    <label for="firstname">FirstName : </label>
+    <input type="text" id="firstname" placeholder="enter FirstName"> <br><br>
 
-      <label for="lastname">LastName : </label>
-      <input type="text" id="lastname"> <br><br>
-      
-      <label for="password">Password: </label>
-      <input type="password" id="password"> <br><br>
+    <label for="lastname">LastName : </label>
+    <input type="text" id="lastname" placeholder="enter LastName"> <br><br>
 
-      <label for="email">Email: </label>
-      <input type="email" id="email"> <br><br>
+    <label for="password">Password: </label>
+    <input type="password" id="password"> <br><br>
 
-      <label for="age">Age: </label>
-      <input type="number" id="age"> <br><br>
+    <label for="email">Email: </label>
+    <input type="email" id="email"> <br><br>
 
-      <label for="dob">DOB: </label>
-      <input type="date" id="dob"> <br><br>
+    <label for="age">Age: </label>
+    <input type="number" id="age"> <br><br>
 
-      <label for="phonenumber">PhoneNumber: </label>
-      <input type="tel" id="phonenumber"> <br><br>
+    <label for="dob">DOB: </label>
+    <input type="date" id="dob"> <br><br>
 
-      <label for="file">Choose your file: </label>
-      <input type="file" id=" File"> <br><br>
+    <label for="phonenumber">PhoneNumber: </label>
+    <input type="tel" id="phonenumber"> <br><br>
 
-      <input type="submit" value="Register">
-      <input type="reset"  value="reset">
+    <label for="file">Choose your file: </label>
+    <input type="file" id=" File"> <br><br>
 
-      <!-- Multiple options-->
-      <input type="radio" name="gender" id="male" value="male">
-      <label for="gender">Male </label>
+    <label for="color">Choose your color: </label>
+    <input type="color" id="Color"> <br><br>
 
-      <input type="radio" name="gender" id="female" value="female">
-      <label for="gender">Female</label>
 
-      <input type="radio" name="gender" id="other" value="other">
-      <label for="gender">Other</label>
+    <!-- radio to select single from Multiple options-->
+    <label for="gender">Gender : </label>
 
-      
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="gender">Male </label>
 
-    </form>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="gender">Female</label>
 
-  </body>
+    <input type="radio" name="gender" id="other" value="other">
+    <label for="gender">Other</label> <br><br>
+
+    <!-- checkbox to select multiple options-->
+
+    <label for="checkbox"> Skills : </label>
+
+        <input type="checkbox" name="skills" id="html" value="html">
+        <label for="html"> HTML </label>
+
+        <input type="checkbox" name="skills" id="css" value="css">
+        <label for="css"> CSS </label>
+
+        <input type="checkbox" name="skills" id="js" value="js">
+        <label for="js">JS </label> <br><br>
+
+    <!-- dropdown to select single option-->
+
+    <label for="country"> Country </label>
+      <select name="country" id="country">
+        <option value="india"> India </option>
+        <option value="USA"> USA </option>
+        <option value="Australia"> Australia </option>
+        <option value="UK"> UK </option>
+        <option value="Canada"> Canada </option>
+      </select> <br><br>
+
+    <!-- register and reset options-->
+
+    <input type="submit" value="Register">
+    <input type="reset" value="reset">
+
+  </form>
+
+</body>
 
 </html>
