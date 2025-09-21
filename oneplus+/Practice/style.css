@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  gap: 30px;
+}
+
+/* .header +div h3{
+  background-color: aquamarine;
+  border: 2px solid rgb(11, 12, 11);
+  border-radius: 5px;
+} */
+
+.header  div ~p{
+  background-color: rgb(255, 127, 255);
+  border: 2px solid rgb(12, 11, 11);
+  border-radius: 5px;
+}
+
+.header li{
+  background-color: chocolate;
+  border: 2px solid blue;
+  width: 90%;
+}
