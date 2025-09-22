@@ -1,0 +1,48 @@
+.box{
+  height: 120px;
+  width: 120px;
+  background-color: pink;
+  margin-bottom: 5px;
+}
+
+.static{
+background-color: aqua;
+/* top: 100px; */
+/* left: 100px;  there is no change in position by using left or top on static     */
+}
+
+.relative{
+position: relative;
+background-color: blue;
+/* top: 125px;
+left: 150px; */
+}
+
+section{
+  height: 300px;
+  width: 80%;
+  position: relative;
+  border: 1px solid blue;
+  justify-content: center;
+  margin: 0 80px;
+
+}
+
+.absolute{
+background-color: darkgoldenrod;
+position: absolute;
+}
+
+.fixed{
+background-color: purple;
+position: fixed;
+top: 120px;
+left: 200px;
+}
+
+.sticky{
+background-color: lightcoral;
+position: sticky;
+top: 150px;
+left: 200px;
+}
