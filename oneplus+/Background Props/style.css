@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.container {
+  height: 500px;
+  width: 100%;
+  /* background-color: white; */
+  position: relative;
+  border: 1px solid black;
+  background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2020/10/Pokemon-Crown-Tundra-DLC-Lugia.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-clip: content-box; */
+}
+
+.box {
+  position: absolute;
+  height: 70px;
+  width: 70%;
+  background: linear-gradient(orange, white, green);
+  /* background-color: whitesmoke; */
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  top: 5%;
+  left: 10%;
+  /* transform: translate(-50%, -50%); */
+  box-shadow: rgba(6, 6, 73, 0.5) 10px 15px 10px 5px;
+}
