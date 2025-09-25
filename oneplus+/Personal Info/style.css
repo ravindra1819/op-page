@@ -137,6 +137,18 @@ body{
   padding-left: 15px;
 }
 
+.fbdetails{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 2px;
+}
+
+.fbaddress{
+  display: flex;
+  align-items: center;
+}
+
 .fbbutton{
   margin-top: 5px;
   padding: 5px 10px;
