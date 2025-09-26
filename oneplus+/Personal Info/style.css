@@ -7,10 +7,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: sliderup 1s linear 1;
+  /* animation: sliderup 1s linear 1; */
 }
 
-@keyframes sliderup {
+/* @keyframes sliderup {
   from {
     transform: translateY(-100px);
   }
@@ -18,8 +18,7 @@ body {
   to {
     transform: translate(0px);
   }
-
-}
+} */
 
 .username {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -60,8 +59,8 @@ body {
 }
 
 .userimg {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   position: absolute;
   left: 75%;
@@ -104,7 +103,7 @@ body {
   margin-bottom: 8px;
 }
 
-@keyframes herospin {
+/* @keyframes herospin {
   0% {
     transform:scale(1);
   }
@@ -112,7 +111,7 @@ body {
   100% {
     transform: scale(1.1);
   }
-}
+} */
 
 .head1 {
   padding-left: 60px;
