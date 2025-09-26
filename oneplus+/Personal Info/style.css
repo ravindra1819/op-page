@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
@@ -7,6 +7,18 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: sliderup 1s linear 1;
+}
+
+@keyframes sliderup {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translate(0px);
+  }
+
 }
 
 .username {
@@ -77,12 +89,29 @@ body{
   align-items: center;
   transform: translate(22%, 0);
   margin-bottom: 40px;
+  animation: herospin 2s ease 1;
 }
 
-.website-box {
+.website-box1 {
   border: 1px solid rgb(172, 206, 172);
   border-radius: 5px;
   margin-bottom: 8px;
+}
+
+.website-box2 {
+  border: 1px solid rgb(172, 206, 172);
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+@keyframes herospin {
+  0% {
+    transform:scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .head1 {
@@ -103,14 +132,14 @@ body{
   margin-bottom: 15px;
 }
 
-.contain1{
+.contain1 {
   width: 50%;
   border: 1px solid rgb(182, 161, 184);
   border-radius: 5px;
   background-color: rgb(198, 198, 218);
 }
 
-.contain2{
+.contain2 {
   width: 50%;
   border: 1px solid rgb(238, 233, 240);
   border-radius: 5px;
@@ -125,11 +154,11 @@ body{
   padding-bottom: 0px;
 }
 
-.head2{
+.head2 {
   margin-top: -20px;
 }
 
-.feedback{
+.feedback {
   width: 70%;
   border: 1px solid rgb(238, 231, 235);
   border-radius: 5px;
@@ -137,19 +166,19 @@ body{
   padding-left: 15px;
 }
 
-.fbdetails{
+.fbdetails {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   gap: 2px;
 }
 
-.fbaddress{
+.fbaddress {
   display: flex;
   align-items: center;
 }
 
-.fbbutton{
+.fbbutton {
   margin-top: 5px;
   padding: 5px 10px;
   background-color: rgb(155, 105, 170);
