@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: whitesmoke;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(23, 23, 55);
+  font-size: 22px;
+  font-weight: bolder;
+  animation: loader 2s linear 5;
+  /* animation-name: spin;
+  
+  animation-timing-function: linear; */
+  /* animation-delay: 2s; */
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: 3;
+  animation-direction: normal; */
+  /* animation-play-state: paused; */
+  /*  short hand property - animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
+
+/* .box:hover{
+  animation-play-state: running;
+} */
+
+/* @keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-radius: 30%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+} */
+
+@keyframes loader {
+  0%{
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  33%{
+    transform: rotateX(60deg) rotateY(0deg) rotateZ(60deg);
+  }
+
+  70%{
+    transform: rotateX(150deg) rotateY(150deg) rotateZ(150deg);
+  }
+
+  100%{
+    transform: rotateX(250deg) rotateY(250deg) rotateZ(250deg);
+  }
+}
